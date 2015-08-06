@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+	  <link rel='stylesheet' type = 'text/css' href='style.css'/>
+	  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	  <script type="text/javascript" src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+<!--Campus Operations (Transportation and Green Buildings, Green Space)
+      Numbers
+      Highlights
+      Additional
+      Future
+    Energy, Water, and C02
+      Numbers
+      Highlights
+      Additional
+      Future
+    Food
+      Numbers
+      Highlights
+      Additional
+      Future
+    Recycling and Reuse
+      Numbers
+      Highlights
+      Additional
+      Future
+    Education and Outreach
+      Numbers
+      Highlights
+      Additional
+      Future
+    -->
+
+
+  <div class ="nav navbar-fixed-top">
+      <div class="container">
+        <div class = "row">
+          <div class = "col-xs-2 ">
+            <ul class = "text-center" style="margin-bottom:0px;">
+            <li><a href = "http://sustainability.emory.edu" target="_blank"><img src= "images/OSI_Leaf_Plain_Sticker.png" style = "width:20px; "></a></li>
+          </ul>
+        </div>
+          <div class = "col-xs-6 col-xs-offset-1  ">
+              <ul class ="text-center">
+                <li style="font-weight:bold; color:green;"><a href="#top">OSI Sustainability Report</a></li>
+              </ul>
+            </div>
+            <!-- <div class = "col-xs-6 shrink ">
+                <ul class ="pull-left">
+                  <li style="font-weight:bold; color:green; font-size:12px;"><a href="#">OSI Sustainability Report</a></li>
+                </ul>
+              </div> -->
+
+              <!-- <div class = "col-xs-7 shrink invisible">
+                <ul>
+                  <li><a id = "Oper">Campus</a></li>
+                  <li><a id = "H20">Energy, Water, & Carbon</a></li>
+                  <li><a id = "Food">Food</a></li>
+                  <li><a id = "Recy">Recycle</a></li>
+                  <li><a id = "Educ">Education</a></li>
+                </ul>
+              </div> -->
+
+              <div class = "col-xs-3 regular pull-right">
+                <ul class="pull-right">
+                  <li><a href="#" id = "goals">Goals</a></li>
+                  <li><a href="#" id = "awards">Awards</a></li>
+                </ul>
+              </div>
+              <div class = "col-xs-3 shrink" >
+                <div class = "inner pull-right">
+                  <div class = "box">
+                    <i class = "fa fa-bars fa-2x"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+      </div>
+  </div>
+  <div class =  "foldMenu shrink invisible">
+    <div class = "row">
+      <div class = "col-xs-12 text-center mobileLink-Campus">
+        <p>Campus Operations</p>
+      </div>
+      <div class = "col-xs-12 text-center mobileLink-H20">
+        <p>Energy, Water, & Carbon</p>
+      </div>
+      <div class = "col-xs-12 text-center mobileLink-Food">
+        <p>Sustainable Food</p>
+      </div>
+      <div class = "col-xs-12 text-center mobileLink-Recycle">
+        <p>Recycling and Reuse</p>
+      </div>
+      <div class = "col-xs-12 text-center mobileLink-Education" style="border-bottom:none;">
+        <p>Education & Outreach</p>
+      </div>
+    </div>
+  </div>
+
+<!--
+    <div class="jumbotron">
+      <div class="container">
+
+            <div class ="nav">
+            <ul class ="pull-left">
+                <li><a href="#"><img src="http://sustainability.emory.edu/html/images/si.gif"></a></li>
+              <li><a href="#">OSI Sustainability Report</a></li>
+            </ul>
+            <ul class="pull-right">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Goals</a></li>
+              <li><a href="#">Awards</a></li>
+            </ul>
+          </div>
+    </div>
+-->
+
+<div class = "slider" id = "top">
+    <div class = "slide active-slide slide-feature">
+        <div class = "container">
+                <div class = "row">
+                    <div class ="col-xs-12">
+                      <h1><span id ="blue">Blue</span> and <span id = "gold">Gold</span> make <span id = "green">Green</span></h1>
+                    </div>
+                </div>
+        </div>
+        <p class="photo-credit">photo by Tina Chang</p>
+    </div>
+<!--
+    <div class = "slide slide-market">
+        <div class = "container">
+                <div class = "row">
+                    <div class ="col-xs-12">
+                      <h1><span id ="blue">Blue</span> and <span id = "gold">Gold</span> make <span id = "green">Green</span></h1>
+                    </div>
+                </div>
+        </div>
+        <p class="photo-credit">photo by Tina Chang</p>
+
+    </div>
+
+    <div class = "slide slide-orli">
+        <div class = "container">
+                <div class = "row">
+                    <div class ="col-xs-12">
+                      <h1><span id ="blue">Blue</span> and <span id = "gold">Gold</span> make <span id = "green">Green</span></h1>
+                    </div>
+                </div>
+        </div>
+        <p class="photo-credit">photo by Tina Chang</p>
+
+    </div>
+
+    <div class = "slide slide-bench">
+        <div class = "container">
+                <div class = "row">
+                    <div class ="col-xs-12">
+                      <h1><span id ="blue">Blue</span> and <span id = "gold">Gold</span> make <span id = "green">Green</span></h1>
+                    </div>
+                </div>
+        </div>
+        <p class="photo-credit">photo by Tina Chang</p>
+
+    </div>
+ -->
+
+
+</div>
+<!-- <div class="slider-nav">
+      <a href="#" class="arrow-prev"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-prev.png"></a>
+      <ul class="slider-dots">
+        <li class="dot active-dot">&bull;</li>
+        <li class="dot">&bull;</li>
+        <li class="dot">&bull;</li>
+        <li class="dot">&bull;</li>
+      </ul>
+      <a href="#" class="arrow-next"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-next.png"></a>
+</div> -->
+
+
+    <div class = "Aboutus">
+        <div class = "container-fluid">
+
+                <h1 class = "text-center"><small>At</small> <span id="name">Emory University</span><small>, we're committed to acheiving a greener world. We've been busy over the past ten years.<p class = "text-center">  Here's what we've been up to.</small></p></h1>
+
+        </div>
+        <HR width = "80%" size = "6">
+        <div class = "container">
+            <h4></h4> <small></small>
+        </div>
+
+    </div>
+<div class = "wrapper">
+  <div class = "scrollNav regular invisible">
+    <ul class = "jumpNav regular">
+      <li>
+        <a href = "#Campus" class = "jumpLink jumpLink-Campus current">
+          <span class = "jumpLinkText jumpLinkText-Campus">Campus Operations</span>
+        </a>
+      </li>
+      <li>
+        <a href = "#H20" class = "jumpLink jumpLink-H20">
+          <span class = "jumpLinkText jumpLinkText-H20 ">Energy, Water, & Carbon</span>
+        </a>
+      </li>
+      <li>
+        <a href = "#Food" class = "jumpLink jumpLink-Food">
+          <span class = "jumpLinkText jumpLinkText-Food">Sustainable Food</span>
+        </a>
+      </li>
+      <li>
+        <a href = "#Recycle" class = "jumpLink jumpLink-Recycle">
+          <span class = "jumpLinkText jumpLinkText-Recycle">Recycling and Reuse</span>
+        </a>
+      </li>
+      <li>
+        <a href = "#Education" class = "jumpLink jumpLink-Education ">
+          <span class = "jumpLinkText jumpLinkText-Education">Education and Outreach</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+    <div class = "moreStuff">
+        <div class = "container">
+            <div class = "row">
+              <div class = "col-xs-12">
+              <div class = "outer">
+                  <div class = "cyl" id = "titGoals">
+                    <div class = "inner">
+                      <p class = "text-center">Goals</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+            <div class ="row">
+                <!-- <div class ="col-md-3" > -->
+                  <div class = "outer">
+                    <div class = "box" id="titOper">
+                      <div class = "inner">
+                        <i class="fa fa-bicycle"></i>
+                        <p class = "text-center">Campus Operations</p>
+                      </div>
+                    </div>
+                  </div>
+                <!-- </div> -->
+                <!-- <div class = "col-md-3" > -->
+                  <div class = "outer">
+                  <div class = "box" id ="titH20">
+                    <div class = "inner">
+                      <i class="fa fa-bolt"></i>
+                    <p class = "text-center">Energy, Water, & Carbon</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- </div> -->
+                <!-- <div class = "col-md-3" > -->
+                  <div class = "outer">
+                  <div class = "box" id="titFood">
+                    <div class = "inner">
+                      <i class="fa fa-cutlery"></i>
+                    <p class = "text-center">Sustainable</br> Food
+                    </p>
+                    </div>
+                  </div>
+                <!-- </div> -->
+                </div>
+                <!-- <div class = "col-md-3" > -->
+                  <div class ="outer">
+                  <div class = "box" id="titRecy">
+                    <div class = "inner">
+                    <i class="fa fa-recycle"></i>
+                    <p class = "text-center">Recycling and Reuse</p>
+                    </div>
+                  </div>
+                <!-- </div> -->
+                </div>
+                <!-- <div class = "col-md-3" > -->
+                  <div class = "outer">
+                  <div class = "box" id="titEduc">
+                    <div class = "inner">
+                      <i class="fa fa-university"></i>
+                    <p class = "text-center">Education and Outreach</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- </div> -->
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class = "Goals">
+      <div class = "top">
+            <div class ="container">
+                <h3 class ="text-center">Goals</h3>
+
+                <p class = "text-center mission">The Office of Sustainability Iniatives was created in 2005 with the intention of achieving specific goals.</p>
+
+            </div>
+          </div>
+            <div class = "container" style = "padding-bottom:100px;">
+                <table class="table">
+                  <thead>
+                  </thead>
+                   <tbody>
+                       <tr>
+                          <td><span id = "goalHead">Reduce</span></td>
+                          <td id ="fact">energy use by 25% per square foot by 2015</td>
+                          <td><i class="fa fa-check fa-3x"></i></td>
+                       </tr>
+                       <tr>
+                         <td><span id = "goalHead">Divert</span></td>
+                         <td id ="fact"> 65% of Emory&#39;s waste from landfills by 2015</td>
+                         <td><i class = "fa fa-check fa-3x"></i></td>
+                       </tr>
+                       <tr>
+                         <td><span id = "goalHead">Recycle</span></td>
+                         <td id ="fact"> 100% of electronics waste and road construction materials</td>
+                         <td><i class = "fa fa-check fa-3x"></i></td>
+                       </tr>
+                       <tr>
+                         <td><span id = "goalHead">Compost</span></td>
+                         <td id ="fact"> or recycle 95% of food waste, animal bedding, and building construction materials</td>
+                         <td><i class = "fa fa-check fa-3x"></i></td>
+                       </tr>
+                       <tr>
+                         <td><span id = "goalHead">Procure</span></td>
+                         <td id ="fact">75% of ingredients in dining facilities from local or sustainably grown sources by 2015</td>
+                         <td><i class="fa fa-minus fa-3x"></i></td>
+                       </tr>
+                   </tbody>
+                </table>
+                <div class = "container-fluid">
+                      <div class = "explain">
+                        <p><small>*In 2010, 48% of produce was procured, along with nearly all of dairy and chicken. In 2014, our percentage was 26%. This goal is the most aggressive of any college or university in the country. We acknowledge that more time is needed to meet our goal; however, Emory signed a new food service contract with Bon Apetit in Spring 2015. This new business partnership signals a promising step towards acheiving our goal.</small></p>
+                      </div>
+                </div>
+            </div>
+            <!-- <div class = "container moarGoals">
+
+                  <h4><span class = "text-center">The goals of the initiative</span> as articulated in the strategic plan were to provide leadership in management and operational practices and to develop research and scholarship on:</h4>
+	                   <ul>
+                        <li>How people, companies, cities, and nations can develop and change</li>
+	                      <li>Addressing issues of food, energy, health, transportation, and urbanism</li>
+                        <li>What legal, cultural, and political arrangements work effectively to encourage sustainable practices and acceptable levels of environmental and health risk</li>
+                    </ul>
+
+            </div> -->
+
+            <HR width="80%"  size = "3">
+            <div class = "container">
+              <div class = "row">
+                <div class = "col-xs-12">
+                  <h4 class = " text-center action">In 2011<h4>
+                </div>
+              </div>
+            </div>
+            <div class = "container climate">
+                  <p class = "text-center">We developed a <span id = "Plan">Climate Action Plan</span> to reduce <span id ="co2">CO2 emissions</span> because climate change was not addressed in our initial goals.</p>
+            </div>
+
+
+            <div class = "container carbon">
+              <!-- <div class = "row">
+                <div class = "col-xs-4 ">
+                  <div class ="cloud">
+                    <div class = "inner">
+                  <i class="fa fa-cloud fa-5x"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class = "col-xs-4 ">
+                  <div class ="cloud">
+                    <div class = "inner">
+                  <i class="fa fa-cloud fa-4x" id= "cloud2"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class = "col-xs-4 ">
+                  <div class ="cloud">
+                    <div class = "inner">
+                  <i class="fa fa-cloud fa-2x" id = "cloud3"></i>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+
+              <div class = "row row1">
+                <div class ="outer">
+                <div class = "col-xs-3 mid">
+                  <div class = "inner">
+                    <i class="fa fa-cloud fa-5x" id = "cloud1"></i>
+                  </div>
+                </div>
+              </div>
+                    <div class = "col-xs-1">
+                      <div class = "inner">
+                      <i class="fa fa-chevron-circle-right fa-4x"></i>
+                      </div>
+                    </div>
+                    <div class = "outer">
+                    <div class = "col-xs-4 mid">
+                      <div class = "inner">
+                        <i class="fa fa-cloud fa-4x" id= "cloud2"></i>
+                      </div>
+                    </div>
+                  </div>
+
+                    <div class = "col-xs-1">
+                      <div class = "inner">
+                      <i class="fa fa-chevron-circle-right fa-4x"></i>
+                      </div>
+                    </div>
+                    <div class ="outer">
+                    <div class = "col-xs-3">
+                      <div class = "inner">
+                        <i class="fa fa-cloud fa-2x" id = "cloud3"></i>
+                      </div>
+                    </div>
+                </div>
+                </div>
+              <div class = "row">
+                <div class = "col-xs-3">
+                    <h3 id = "num1">20%</h3>
+                    <p>Total Reduction</p>
+                    <p>by 2020</p>
+                  </div>
+                  <div class = "col-xs-1">
+                    <div class = "inner">
+
+                    </div>
+                  </div>
+
+                <div class = "col-xs-4">
+                    <h3 id = "num1">36%</h3>
+                    <p>Total Reduction</p>
+                    <p>by 2036</p>
+                  </div>
+                  <div class = "col-xs-1">
+                    <div class = "inner">
+
+                    </div>
+                  </div>
+                <div class = "col-xs-3">
+                    <h3 id = "num1">50%</h3>
+                    <p>Total Reduction</p>
+                    <p>by 2050</p>
+                  </div>
+              </div>
+              </div>
+              <!-- <div class = "row co2">
+                <div class = "col-xs-12">
+                  <p>In CO2</p>
+                </div>
+              </div> -->
+
+            <!-- </br>
+          </br>
+        </br>
+
+            <div class = "segue">
+              <div class = "container">
+                <div class = "row">
+                  <h2 class = "text-center"><span  id = "first">&#34;We have a responsibility to be sure our students gain the knowledge and skills to tackle real-world dilemmas...</span></h2>
+                </div>
+                <div class = "row">
+                  <h2 class = "pull-left">
+                  <span id = "second">Using the lens of sustainability,</span></h2>
+                </div>
+                <div class = "row">
+                  <h2 class = "text-center"><span id ="point"><em> Emory can catalyze transformation of our world</span></em></h2>
+                </div>
+                <div class = "row">
+                <h2 class = "pull-right"><span class="pull-left" id ="last"> through innovation in teaching and research.&#34;</span>
+                  </h2>
+                </div>
+              </div>
+            </div>
+            </br>
+          </br>
+        </br> -->
+
+
+    </div>
+
+      <div class = "CampusIntegration">
+        <div class ="top">
+            <div class ="container text-center">
+              <div class = "row">
+                <div class = "col-xs-12">
+                  <i class="fa fa-bicycle fa-5x"></i>
+                </div>
+              </div>
+              <div class = "row">
+                <div class = "col-xs-12">
+                <h3 class = "text-center header">Campus Operations</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <div class ="jumbotron jumbotron-des">
+          <div class = "container">
+              <div class = "row" id = "descrip">
+                    <div class ="col-xs-12">
+                      <p class ="text-center">&#34;Sustainability is now embedded in Emory&#39;s campus master plan, construction design standards, waste management planning,
+                        grounds policies, cleaning policies, procurement policies, no net loss of forest commitment, energy and water use plans, and faculty curriculum development programs.&#34;</p>
+                      </br>
+                      <p class ="text-center">Our campus is constantly pushing the boundaries of what is possible by a university in the 21st century.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          <HR width="80%"  size = "3">
+          <div class = "container numbers">
+            <div class = "row numbers-title">
+                <p class = "precursor text-center">The <span id = "big">numbers</span> speak for themselves...</p>
+
+            </div>
+            <div class = "row">
+              <div class = "col-md-6 ">
+                <div class = "box  text-center">
+                  <div class = "inner">
+                    <!-- <h3>Green Buildings, Green Space</h3> -->
+                    <p>LEED certified buildings continue to proliferate across our campuses. We host <span id = 'campNum'> 13 LEED Gold</span>, <span id = 'campNum'> 12 LEED Silver</span>, and <span id = 'campNum'>3 LEED certified</span> with 7 more buildings pending certification.</p>
+                    <div id='columnchart_material'></div>
+                  </div>
+                </div>
+              </div>
+              <div class = "col-md-6 box2">
+                <div class = "box text-center">
+                  <div class = "inner">
+                    <!-- <h3>Commute Alternatives</h3> -->
+                    <p>Since we created the <span id = 'campNum'>Cliff Shuttle Fleet</span> in 2008, we've seen an upward trend of alternate commuters, with Cliff Shuttles traveling <span id = 'campNum'>2,593,851 miles</span> in 2010.</p>
+                    <div id="donutchart"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <p class = "precursor text-center">...but our <span id = "big">Impact</span> is still visible across Emory's two campuses...</p>
+
+            <div class = "container" style = "padding-bottom:50px; padding-top:100px">
+              <div class = "row">
+                <div class = "col-md-7 text-left highlight-left">
+                  <img id = "busleft" src ="images/cliff-shuttle.jpg">
+                </div>
+                <div class = "col-md-5">
+                  <h2 id = "titleDesRight">Cliff Shuttles</h2>
+                  <p id = "bodyDesRight">Thanks to our initiative, our campus now features a fleet of shuttles, 100% powered by biofuel left over from our hospital and dining halls' waste cooking oil</p>
+                </div>
+              </div>
+              <!-- <hr style="border:#eee border-top:1px solid #eee"> -->
+            </div>
+        <div class = "container">
+          <div class = "row" >
+            <div class = "col-md-5">
+              <h2 id = "titleDesLeft">Residence Life and Housing Operations</h2>
+              <p id = "bodyDesLeft">Our office works hand in hand with other departments across campus, such as Residence Life and Housing Operations to provide recycling bins in every student's room.
+                We have also worked to increase the amount of educational signage in recycling rooms, and developed a sustainabilty curriculum for the required Resident Advisor course.</p>
+            </div>
+            <div class = "col-md-7 text-right highlight-right">
+              <img id = "busright" src ="images/energy-monitor.jpg">
+            </div>
+          </div>
+
+        </div>
+        <div class = "jumbotron jumbotron-camp">
+          <div class = "container">
+            <div class = "outreach text-left">
+              <!-- <div class = "row">
+                <!-- <div class = "col-xs-8 col-md-offset-4 mas"> -->
+                <!-- <div class = "col-xs-12 mas">
+                  <h2>...as our <span id = "big">Reach</span> continues to grow</h2>
+                </div>
+              </div> -->
+              <div class = "row">
+                <!-- <div class = "col-xs-8 col-md-offset-4  masmas"> -->
+                <div class = "col-xs-12 masmas">
+                  <div class = "box">
+                  <i class="fa fa-leaf fa-lg"></i><h4>Constructed 25 LEED certified buildings -- edging on 3 million square feet of LEED-certified building space</h4>
+                  </br></br>
+                  <i class="fa fa-leaf fa-lg"></i><h4>Developed sustainability themed housing</h4>
+                  </br></br>
+                  <i class="fa fa-leaf fa-lg"></i><h4>Established no idiling and no smoking policies on campus</h4>
+                  </br></br>
+                  <i class="fa fa-leaf fa-lg"></i><h4>Eliminated the use of neonicotinoid-based pesticides on campus in order to protect declining bee populations</h4>
+                  </br></br>
+                  <i class="fa fa-leaf fa-lg"></i><h4>Created an interactive campus sustainability map and tour, which are hosted on our <span id = "emphasis"><a href="http://www.sustainability.emory.edu" target="_blank">website</a></span></h4>
+                  </br></br>
+                  <i class="fa fa-leaf fa-lg"></i><h4>Collaborated with Emory University Midtown Hospital for the Atlanta Better Buildings Challenge</h4>
+                </div>
+                </div>
+              </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+
+
+
+
+      <div class = "energy">
+        <div class = "top">
+        <div class ="container text-center">
+          <i class="fa fa-bolt fa-5x"></i>
+            <h3 class = "text-center header">Energy, Water, and Carbon</h3>
+        </div>
+      </div>
+        <div class = "jumbotron jumbotron-des">
+        <div class = "container">
+            <div class = "row" id = "descrip">
+                  <div class ="col-xs-12">
+                    <p class ="text-center">The world faces many crises that are very real. Delpleting water sources coupled with skyrocketing levels of C02 only top the list.
+                    We've taken steps to ensure that future generations won't face the consequences of our ill-informed actions from the past.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        <HR width="80%"  size = "3">
+        <div class = "container numbers">
+          <div class = "container-fluid">
+          <div class = "row">
+            <div class = "col-md-6">
+              <div class = "box">
+                <div class = "inner">
+                  <!-- <h3 >Water Conservation</h3> -->
+                  <p><span id = 'campNum'>Black</span> and <span id = 'campNum'>Gray water</span> reclamation projects comprise the large majority of water savings; However, smaller projects, like <span id = 'campNum'>hydration stations</span>, haved saved over <span id = 'campNum'>1 million fluid ounces</span> of water since 2010.</p>
+                  <div id ="area_div"></div>
+                </div>
+              </div>
+            </div>
+            <div class = "col-md-6 box2">
+              <div class = "box">
+                <div class = "inner">
+                  <!-- <h3>Energy Conservation</h3> -->
+                  <p>Since 2005, we've saved over <span id = 'campNum'>$23 million</span> as a result of our energy conservation efforts.</p>
+                  <div id = "curve_chart"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class = "row"  style="padding-top:60px;">
+            <div class = "col-md-12">
+              <div class = "box-large">
+                <div class = "inner">
+                  <!-- <h3>Climate Action</h3> -->
+                  <p>Our Climate Action Plan of reducing carbon emissions works hand in hand with most of our other conservation efforts. <span id = 'campNum'>55%</span> of our carbon emissions stem from our <span id = 'campNum'>electricity use</span>. As of 2010, <span id = 'campNum'>61%</span> of transportation emissions have been created by <span id = 'campNum'>commuters</span>. As we continue to make strides in these respective areas by expanding alternate forms of energy and transportation, we will continue to reduce our carbon footprint as well.</p>
+                  <div class = "col-md-12">
+                    <div id='area_div5'></div>
+                  </div>
+                  <!-- <div class ="col-md-6">
+                    <div id = "donutchart6"></div>
+                  </div> -->
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class = "container" style = "padding-bottom:50px;">
+
+        <div class = "row">
+          <div class = "col-md-7 highlight-left">
+            <img id = "busleft" src ="images/waterhub.jpg">
+            <p class = "waterhub-credit">photo from AJC</p>
+          </div>
+          <div class = "col-md-5 pull-left">
+            <h2 id = "titleDesRight">Water Reclmation Facility</h2>
+            <p id = "bodyDesRight">A.k.a. the WaterHub, this recently installed treatment plant will treat up to 300,000 gallons of water <em>per day</em>, recycling 40% of Emory's water use. It's the first of its kind at any American university.
+            </p>
+          </div>
+        </div>
+        <!-- <hr style="border:#eee border-top:1px solid #eee"> -->
+      </div>
+      <div class = "container">
+        <div class = "row">
+          <div class = "col-md-5">
+            <h2 id = "titleDesLeft">Solar Energy</h2>
+            <p id = "bodyDesLeft">To supplement our current solar panels on campus, we were granted the option to develop three more installations, totaling roughly 250 kWh of solar power. These will likely be completed in 2015 at no cost to Emory.</p>
+          </div>
+          <div class = "col-md-7 text-right highlight-right">
+            <img id = "busright" src ="images/solar-panel-big.jpg">
+          </div>
+        </div>
+
+      </div>
+      <div class = "jumbotron jumbotron-eng">
+        <div class = "container outreach ">
+          <!-- <div class = "row">
+            <div class = "col-xs-12 mas">
+              <h2 class = "text-center"><span id = "big">Reach</span></h2>
+            </div>
+          </div> -->
+          <div class = "row">
+            <!-- <div class = "col-xs-8 col-md-offset-4  masmas"> -->
+            <div class = "col-md-12 masmas">
+              <div class = "outer">
+              <div class = "box">
+                <i class="fa fa-leaf fa-lg"></i><h4>Installed energy dashboards in Few, Evans, Longstreet-Means, Turman, & Raoul residence halls</h4>
+            </br></br>
+                <i class="fa fa-leaf fa-lg"></i><h4>Collaborated with deans from every academic department to develop Climate Action Plans</h4>
+                </br></br>
+                <i class="fa fa-leaf fa-lg"></i><h4>Facillitated the creation of the faculty-led Climate@Emory academic learning community</h4>
+                </br></br>
+                <i class="fa fa-leaf fa-lg"></i><h4>Implemented holiday building turndown (for energy savings)</h4>
+                </br></br>
+                <i class="fa fa-leaf fa-lg"></i><h4>Host annual energy savings competition between residence halls</h4>
+                </br></br>
+                <i class="fa fa-leaf fa-lg"></i><h4>Spearheaded comprehensive energy and water use reduction programs</h4>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class ="food">
+      <div class = "top">
+        <div class ="container text-center">
+          <i class="fa fa-cutlery fa-5x"></i>
+            <h3 class = "text-center header">Sustainable Food</h3>
+        </div>
+      </div>
+        <div class = "jumbotron jumbotron-des">
+        <div class = "container">
+            <div class = "row" id = "descrip">
+                  <div class ="col-xs-12">
+                    <p class ="text-center">When discussing sustainability, agricultural practices and food disposal tend to be eclipsed by more sensational topics, such as carbon emissions or recycling.
+                       At Emory, we haven't let this topic slip from our vision. We think producing and disposing food in sustainable manners is just as important as any other operation.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <HR width="80%"  size = "3">
+
+
+
+
+        <div class = "container numbers">
+          <div class ="row">
+            <div class = "col-md-12">
+              <div class = "box-large">
+                <div class = "inner">
+                  <!-- <h3>Sustainable Food</h3> -->
+                  <p>Although we did not reach our procurement goal, we have still greatly expanded the amount of sustainable and local food served in Emory's dining halls over the past 10 years. As of 2013, <span id = 'campNum'>25%</span> of both <span id = 'campNum'>Emory's</span> and <span id = 'campNum'>Oxford's</span> food is either <span id = 'campNum'>sustainably or locally sourced</span></p>
+                  <div id='ColumnChart7'></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div class = "container" style = "padding-bottom:50px;">
+
+        <div class = "row">
+          <div class = "col-md-7 pull-left highlight-left">
+            <img id = "busleft" src ="images/campus-kitchens.jpg">
+            <p class = "kitchens-credit">photo from Emory News Center</p>
+          </div>
+          <div class = "col-md-5 pull-left">
+            <h2 id = "titleDesRight">Campus Kitchens</h2>
+            <p id = "bodyDesRight">Campus Kitchens is a student-run organization at Emory that repurposes and donates unused food to local food kitchens and food pantries.
+              Their mission: to fight hunger in Atlanta through sustainable food waste management while simultaneously fostering an awareness of our consumption and our role in sustainable practices.<p>
+          </div>
+        </div>
+        <!-- <hr style="border:#eee border-top:1px solid #eee"> -->
+      </div>
+        <div class = "container">
+          <div class = "row">
+            <div class = "col-md-5">
+              <h2 id = "titleDesLeft">Oxford Farm</h2>
+              <p id = "bodyDesLeft">In 2014, Oxford College launched their organic farm, which used as a "living laboratory" to teach students and the local community about sustainable farming techniques.</p>
+            </div>
+            <div class = "col-md-7 text-right highlight-right">
+              <img id = "busright" src ="images/oxford-farm.jpg">
+            </div>
+          </div>
+        </div>
+        <div class = "jumbotron jumbotron-food">
+          <div class = "container outreach text-left">
+            <!-- <div class = "row">
+              <div class = "col-xs-12 mas">
+                <h2 class = "text-center"><span id = "big">Reach</span></h2>
+              </div>
+            </div> -->
+            <div class = "row">
+              <!-- <div class = "col-xs-8 col-md-offset-4  masmas"> -->
+              <div class = "col-xs-12 masmas">
+                <div class = "box">
+                <i class="fa fa-leaf fa-lg"></i><h4>Established and coordinate Emory's farmers markets every Tuesday during the academic year</h4>
+                </br></br>
+                <i class="fa fa-leaf fa-lg"></i><h4>Established and oversee educational food gardens on both Atlanta's and Oxford's campus</h4>
+                </br></br>
+                <i class="fa fa-leaf fa-lg"></i><h4>Established annual Sustainable Food Fair</h4>
+                </br></br>
+                <i class="fa fa-leaf fa-lg"></i><h4>Expanded composting stations throughout campus</h4>
+                </br></br>
+                <i class="fa fa-leaf fa-lg"></i><h4>Furthered Sustainable Food Education in Dining Halls</h4>
+                </br></br>
+                <i class="fa fa-leaf fa-lg"></i><h4>Signed food supplying contract with Bon Apetit in 2015</h4>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+  </div>
+      <div class = "Reuse">
+        <div class = "top">
+        <div class ="container text-center">
+          <div class = "row">
+            <div class = "col-xs-12">
+              <i class="fa fa-recycle fa-5x"></i>
+            </div>
+          </div>
+          <div class = "row">
+            <div class ="col-xs-12">
+            <h3 class = "text-center header">Recycling and Reuse</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class = "jumbotron jumbotron-des">
+          <div class = "container">
+            <div class = "row" id ="descrip" >
+                  <div class ="col-xs-12">
+                    <p class ="text-center">Earth's resources will one day run out; there's no getting around that fact.
+                      It's imperative, then, that we develop sound methods for reusing or refashioning available materials. It may take a culture-shift, but Emory has already proven itself capable of great things.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <HR width="80%"  size = "3">
+        <div class = "container numbers">
+          <div class = "row">
+            <div class = "col-md-12">
+              <div class = "box-large box-large-waste">
+                <div class = "inner">
+                  <!-- <h3>Recycling and Reuse</h3> -->
+                  <p>Our waste reduction methods have proved successful, as we've <span id = 'campNum'>diverted</span> over <span id = 'campNum'>2,500 tons</span> of recylable or compostable material for the past 4 years. <span id = 'campNum'>Last year</span> alone, we diverted <span id = 'campNum'>166 tons</span> of White Paper, <span id = 'campNum'>392 tons</span> of mixed paper, <span id = 'campNum'>309 tons</span> of cardboard, and composted <span id = 'campNum'>714 tons</span> of food.</p>
+                  <div class = "col-sm-6">
+                    <div id='area_div8'></div>
+                  </div>
+                  <div class = "col-sm-6">
+                    <div id="ColumnChart9"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class = "container" style = "padding-bottom:50px;">
+
+        <div class = "row">
+          <div class = "col-md-7 pull-left highlight-left">
+            <img id = "busleft" src ="images/cox-recycling.jpg">
+          </div>
+          <div class = "col-md-5 pull-left">
+            <h2 id = "titleDesRight">Major Renovations</h2>
+            <p id = "bodyDesRight">Recycling didn't exist before we arrived on campus. Since then, the number of options for diposing waste has skyrocketed. We offer methods for recycling plastic, aluminum, paper, batteries, scrap metal, and much, much more.
+            </p>
+          </div>
+        </div>
+      </div>
+
+        <div class = "container">
+          <div class = "row">
+            <div class = "col-md-5">
+              <h2 id = "titleDesLeft">Green Labs &#64; Emory</h2>
+              <p id = "bodyDesLeft">An organization that asses Emory&#39;s research and implements more sustainable practices in energy and water efficiency, recycling and waste reduction, chemical use, and procurement</p>
+            </div>
+            <div class = "col-md-7 text-right highlight-right">
+              <img id = "busright" src ="images/compost-lab.jpg">
+            </div>
+          </div>
+        </div>
+
+        <div class = "jumbotron jumbotron-rec">
+          <div class = "container outreach text-left">
+            <!-- <div class = "row">
+              <div class = "col-xs-12 mas">
+                <h2 class = "text-center"><span id = "big">Reach</span></h2>
+              </div>
+            </div> -->
+            <div class = "row">
+              <!-- <div class = "col-xs-8 col-md-offset-4  masmas"> -->
+              <div class = "col-xs-12 masmas">
+                <div class = "box">
+                <i class="fa fa-leaf fa-lg"></i><h4>Initiated the Green Office Program</h4>
+                </br></br>
+                <i class="fa fa-leaf fa-lg"></i><h4>Established Emory's Waste Think Tank</h4>
+                </br></br>
+                <i class="fa fa-leaf fa-lg"></i><h4>Host annual recycling month competition between residence halls</h4>
+                </br></br>
+                <i class="fa fa-leaf fa-lg"></i><h4>Vastly expanded number of single-stream recycling bins located throughout campus</h4>
+                </br></br>
+                <i class="fa fa-leaf fa-lg"></i><h4>Boosted number of recycling and composting bins at university events</h4>
+                </br></br>
+                <i class="fa fa-leaf fa-lg"></i><h4>Launched composting pilot in Few and Evans residence halls</h4>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class = "Education text-center">
+        <div class ="top">
+            <div class ="container text-center">
+              <div class = "row">
+                <div class = "col-xs-12">
+                  <i class="fa fa-university fa-5x"></i>
+                </div>
+              </div>
+              <div class = "row">
+                <div class = "col-xs-12">
+                <h3 class = "text-center header">Education and Outreach</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+            <div class = "jumbotron jumbotron-des">
+              <div class = "container">
+                <div class = "row" id = "descrip">
+                      <div class ="col-xs-12">
+                        <p class ="text-center">&#34;Through applied research and engaged learning, sustainability broadens students&#39; perspectives to include our interdependence with the local and global community...
+                          We have a responsibility to be sure our students gain the knowledge and skills to tackle real-world dilemmas, using multiple standpoints from academic boundaries.&#34;</p>
+                        </br>
+                        <p class = "text-center">At the core of sustainability lies an understanding of earth's complex systems, both natural and man-made. Education and outreach of these topics stands as our number one mission.
+                          By promoting knowledge and awareness of global issues, we empower others so that they too can contribute to their local and global communities.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            <HR width="80%"  size = "3">
+
+
+            <div class="container numbers">
+
+                  <div class = "row row1 info ">
+                    <div class="col-md-4">
+                      <div class = "outer">
+                        <div class="circle">
+                            <div class="inner">
+                                <h3 id = "num">1,543</h3>
+                                <p>Number of courses developer or assisted in developing</p>
+                                <p class="text-muted">(2010 - 2014)</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col-md-4">
+                      <div class = "outer">
+                        <div class="circle">
+                            <div class="inner">
+                                <h3 id = "num">43</h3>
+                                <p>Departments offering sustainability-related coursework</p>
+                                <p class="text-muted">(2014)</p>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+
+
+                <div class="col-md-4">
+                  <div class ="outer">
+                    <div class="circle">
+                        <div class="inner">
+                            <h3 id = "num">42,623</h3>
+                            <p>Students taught<br/><br/></p>
+                            <p class="text-muted">(2010 - 2013)</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <div class = "row">
+
+                    <div class="col-md-4">
+                      <div class = "outer">
+                        <div class="circle">
+                            <div class="inner">
+                                <h3 id = "num">41</h3>
+                                <p>Reported sustainability related research projects</p>
+                                <p class="text-muted">(2014)</p>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col-md-4">
+                      <div class = "outer">
+                        <div class="circle">
+                            <div class="inner">
+                                <h3 id = "num">90</h3>
+                                <p>Faculty performing sustainability related research</p>
+                                <p class="text-muted">(2014)</p>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class ="outer">
+                        <div class="circle">
+                            <div class="inner">
+                                <h3 id = "num">1,635</h3>
+                                <p>Publications &#38; research papers attributable to our initiative</p>
+                                <p class="text-muted">(2010 - 2013)</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "container" style = "padding-bottom:50px">
+
+              <div class = "row">
+                <div class = "col-sm-7 text-left highlight-left">
+                  <img id = "busleft" src ="images/green-bean.jpg">
+                </div>
+                <div class = "col-sm-5 text-left">
+                  <h2 id = "titleDesRight">Sustainability Incentives Fund</h2>
+                  <p id = "bodyDesRight">Each year, students submit applications to garner funding for their creative ideas.
+                    In Fall 2013, over $72,000 of project funds were requested and 18 projects totaling $16,000 were funded. Past projects have included:
+                    <ul class = "pull-left">
+                      <li>The Green Bean Caf&#233;</li>
+                      <li>Human powered energy production in the WoodPEC gym</li>
+                      <li>A student run green roof in Complex Residence Hall</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+              <!-- <hr style="border:#eee border-top:1px solid #eee"> -->
+            </div>
+          <div class = "container">
+              <div class = "row">
+                <div class = "col-sm-5">
+                  <h2 id = "titleDesLeft">Educational Food Gardens</h2>
+                  <p id = "bodyDesLeft">Scattered around Atlanta's and Oxford's campuses are gardens where students partner with faculty to tend an assortment of vegetables, fruits, and herbs while learning about the benefits of producing local and sustainably sourced food.</p>
+                </div>
+                <div class = "col-sm-7 text-right highlight-right">
+                  <img id = "busright" src ="images/educational-garden.jpg">
+                </div>
+              </div>
+            </div>
+            <div class = "jumbotron jumbotron-edu">
+              <p>Our Roots Run Deep</p>
+            <div class = "container groups text-left">
+              <div class = "row " id = "box">
+                <div class = "col-xs-8 mas">
+                  <h2>Student and staff groups related to sustainability</h2>
+                  <HR>
+                </div>
+              </div>
+              <div class = "row ">
+                <div class = "col-sm-4 masmas">
+                  <h4>Student Sustainability Forum</h4>
+                  <h4>Education Garden Program</h4>
+                  <h4>Residence Hall Association Sustainability Chairs</h4>
+                  <h4>Office of Sustainability Internship Program</h4>
+                  <h4>Climate Action Plan Committee</h4>
+                  <h4>Sustainable Food Committee</h4>
+                  <h4>Slow Food Emory</h4>
+                  <h4>Green Team</h4>
+                  <h4>Emory Sustainable Food Leadership Alliance</h4>
+
+                </div>
+                <div class = "col-sm-4  masmas">
+                  <h4>Emory Environmental Alliance</h4>
+                  <h4>Rollins Environmental Health Action Committee</h4>
+                  <h4>Graduate Sustainability Group</h4>
+                  <h4>Global HEED</h4>
+                  <h4>Emory Vegans and Vegetarians</h4>
+                  <h4>Outdoor Emory Organization</h4>
+                  <h4>Generation Response</h4>
+                  <h4>Student Implementing Nourishment in Communities</h4>
+                  <h4>Emory Undergraduate Global Health Organization</h4>
+                  <!-- <h4 id = "final">And Many More!</h4> -->
+                </div>
+                <div class = "col-sm-4 masmas">
+                  <h4>Emory Global Health Organization</h4>
+                  <h4>Environmental Law Society</h4>
+                  <h4>Good Samaritan Clinic Outreach</h4>
+                  <h4>Oxford College Sustainability Club</h4>
+                  <h4>Roots and Shoots</h4>
+                  <h4>Global Development Student Council</h4>
+                  <h4>Piedmont TATTO</h4>
+                  <h4>Campus Kitchens Emory</h4>
+                  <h4>Net Impact</h4>
+                  <h4>Greeks Go Green</h4>
+                </div>
+              </div>
+              <div class = "row " id = "box">
+                <div class = "col-xs-8 mas">
+                  <h2>Institutional and community partners</h2>
+                  <HR>
+                </div>
+              </div>
+              <div class = "row ">
+                <div class = "col-xs-4 masmas">
+                  <h4>Emory Healthcare</h4>
+                  <h4>Emory University Senate</h4>
+                  <h4>City of Atlanta's Sustainability Office</h4>
+                  <h4>Southface Energy Institute</h4>
+
+                </div>
+                <div class = "col-xs-4  masmas">
+                  <h4>Metro Atlanta Chamber of Commerce</h4>
+                  <h4>DeKalb County</h4>
+                  <h4>The Carter Center</h4>
+                  <h4>Georgia Institute of Technology</h4>
+
+                </div>
+                <div class = "col-xs-4 masmas">
+                  <h4>Centers for Disease Control and Prevention</h4>
+                  <h4>Sustainable Atlanta</h4>
+                  <h4>CARE</h4>
+                  <h4>Agnes Scott College</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="Awards">
+          <div class = "top">
+              <div class="container text-center">
+                <div class = "row">
+                  <div class = "col-xs-12">
+                  <i class="fa fa-trophy fa-5x"></i>
+                  </div>
+                </div>
+                <div class = "row">
+                  <div class = "col-xs-12">
+                  <h2 class = "text-center header">Awards</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+                <div class = "container text-center grid">
+                  <div class = "row">
+                    <div class = "col-sm-3">
+                      <h3 class = "text-center">Gold</h3>
+                      <div class = "box">
+                        <div class = "inner">
+                        </br>
+                          <p>Gold status ranking from the Association for the Advancedment of Sustainability in Higher Education</p>
+                        </br>
+                          <p><small>(2013 - 2014)</small></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class = "col-sm-3">
+                      <h3>11th</h3>
+                      <div class = "box">
+                        <div class = "inner">
+                        </br>
+                        <p>Ranked 11th most sustainable campus by The Princeton Review</p>
+                      </br></br>
+                        <p><small>(2009)</small></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class = "col-sm-3">
+                      <h3>16th</h3>
+                      <div class = "box">
+                        <div class = "inner">
+                          </br>
+                          <p>Ranked 16th in the Sierra Club's "Cool Schools" list of greenest U.S. colleges and universities</p>
+                        </br>
+                          <p><small>(2013)</small></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class = "col-sm-3">
+                      <h3 class = "text-center">Gold</h3>
+                      <div class = "box">
+                        <div class = "inner">
+                          </br>
+                          <p>We received a STARS Gold ranking, as well as the much more rigorous STARS 2.0 Gold Ranking</p>
+                        </br>
+                          <p><small>(2013 - 2014)</small></p>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class = "row row2">
+                    <div class = "col-sm-3">
+                      <h3 class = "text-center">Bike Friendly Campus</h3>
+                      <div class = "box">
+                        <div class = "inner">
+                        </br>
+                          <p>Rated as a bike friendly campus by the League of American Bicyclists</p>
+                          </br></br>
+                          <p><small>(2011 - present)</small></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class = "col-sm-3">
+                        <h3 class = "text-center">"Best in Higher Education"</h3>
+                        <div class = "box">
+                          <div class = "inner">
+                            </br>
+                            <p class = "text-center"> - U.S. Green Building Council</p>
+                          </br></br></br>
+                            <p class = "text-center"><small>(2013)</small></p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class = "col-sm-3">
+                      <h3 class = "text-center">National Model</h3>
+                      <div class = "box">
+                        <div class = "inner">
+                          </br></br></br>
+                          <p>Our sustainable food purchasing guidelines have become a national model for universities around the U.S., as well as organizations like Kaiser Permanente</p>
+                          <p><small></small></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class = "col-sm-3">
+                      <h3 class = "text-center">Tree Campus USA</h3>
+                      <div class = "box">
+                        <div class = "inner">
+                          </br>
+                          <p>Listed as a Tree Campus USA, indicating our effective management of community forests, by the Arbor Foundation</p>
+                        </br>
+                          <p><small>(2013-2014)</small></p>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+
+            <div class = "media">
+              <div class = "jumbotron jumbotron-awa">
+                <div class = "container">
+                  <div class ="row">
+                    <div class = "col-sm-12 notice">
+                      <h3 class = "text-center">We're being noticed</h3>
+                      <p class = "text-center">Our efforts have been recognized by many national media outlets, including CNN, The Huffington Post, and NPR.
+                         Locally, we've received attention from the Atlanta Journal Constitutition, 11 Alive News, WSB Channel 2, and other sources.</p>
+                    </div>
+                  </div>
+                  <div class = "row">
+                    <div class = "col-sm-4 text-center ">
+                      <img id="npr" src = "images/npr.png" style = "width:70%">
+                    </div>
+                    <div class = "col-sm-4 text-center">
+                      <img id = "cnn" src ="images/cnn.png" style = "width:60%">
+                    </div>
+
+                    <div class = "col-sm-4 text-center">
+                      <img id = "huff" src = "images/huffington-post.png" style = "width:70%">
+                    </div>
+                  </div>
+                  <div class ="row ">
+                    <div class = "col-sm-4 text-center">
+                      <img src = "images/usa-today.png" style = "width:80%">
+                    </div>
+                    <div class = "col-sm-4 text-center">
+                      <img id ="nyt" src = "images/nyt.png" style = "width:80%">
+                    </div>
+                    <div class = "col-sm-4 text-center">
+                      <img src = "images/ajc.png" style = "width:70%">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <div class = "social">
+    <div class = "final-words">
+      <div class = "jumbotron-final">
+          <div class = "container">
+          <div class = "row" id ="future">
+            <h3 class="text-center">
+              <br>
+              <em>The Future</em>
+            </h3>
+                        </br>
+              <p class = "future">The future work of our initiative is to provide an educational grounding in systems thinking, problem-based learning, environmental and economic literacy, global competence, critical thinking, and civic engagement.
+                Most importantly for this time, sustainability offers non-polarizing language to discuss pressing problems of mutual concern, training our students in the art of civil discourse.
+                Students are then equipped to respond to the challenges of our time as prepared and principled citizens and leaders.</p>
+          </div>
+          </div>
+      </div>
+    </div>
+
+
+
+      <div class = "jumbotron jumbotron-social">
+        <div class = "container">
+          <div class = "row">
+            <h4 class = "text-center">Our work isn't done yet.</br>Join our journey.</h4>
+          </br>
+          <div class = "col-xs-4 col-xs-offset-4 text-center">
+            <div class = "pledge">
+            <a href = "http://sustainability.emory.edu/cgi-bin/MySQLdb?VIEW=/viewfiles/view_pledge.txt&pageid=1042" target="_blank">
+            <button type="button" class="btn btn-primary btn-lg btn-block text-center" >Take the Pledge</button>
+            </a>
+          </div>
+          </div>
+        </div>
+          <div class = "row" style = "padding-top:25px;">
+            <div class = "col-xs-4">
+              <div class = "inner pull-right">
+              <a href = "https://www.facebook.com/emorysustainability?fref=ts&ref=br_tf" target="_blank">
+              <i class = "fa fa-facebook-square fa-2x"></i>
+              </a>
+            </div>
+            </div>
+            <div class = "col-xs-4">
+              <div class = "inner text-center">
+              <a href = "http://sustainability.emory.edu/page/1017/Keep-up-with-News-and-Events" target="_blank">
+              <i class = "fa fa-envelope fa-2x" style="margin-left:auto; margin-right:auto;"></i>
+              <!-- Begin MailChimp Signup Form -->
+
+
+
+              </a>
+            </div>
+            </div>
+            <div class = "col-xs-4">
+              <div class = "inner">
+                <a href = "https://twitter.com/EmoryGreen" target="_blank">
+                <i class = "fa fa-twitter fa-2x"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+    <div class="contact">
+                <div class ="container">
+                  <div class = "row">
+                    <div class = "col-md-6 regular">
+                      <h3 style="padding-top:5px;">Looking for more?</h3>
+                    </div>
+                    <div class = "col-md-6 ">
+                      <h4 class = "pull-right" style="padding-top:20px;">
+                        <a href = "https://www.sustainability.emory.edu" target="_blank">Explore our site </a>/<a href = "http://sustainability.emory.edu/page/1064/Volunteer" target="_blank"> Volunteer </a>/<a href = "http://sustainability.emory.edu/page/1034/Internship-Opportunities" target="_blank"> Join our team</a>
+                      </h4>
+                    </div>
+                </div>
+
+    </div>
+
+
+</body>
+</html>
